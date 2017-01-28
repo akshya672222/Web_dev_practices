@@ -1,5 +1,31 @@
+/* html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#full {
+  background: #0f0;
+  height: 100%
+}
+ */
+
 p {
   margin: 0 !important;
+}
+
+div.right_section {
+  width: 90%;
+  margin: auto;
+  float: right;
+}
+
+div.left_section {
+  width: 10%;
+  height: 100vh;
+  margin: auto;
+  float: left;
+  background: #375bb0;
 }
 
 .info {
@@ -7,19 +33,22 @@ p {
   font-size: 20px;
 }
 
-.list_skill {
+
+
+.list_skill, .nav {
   padding: 0;
   list-style-type: none;
 }
 
-
 .list_experience {
   margin: 0 0 0 7px;
   padding: 0 0 0 10px;
-/*   list-style-type: circle; */
+  /*   list-style-type: circle; */
 }
 
-hr { margin: 0.09em auto; }
+hr {
+  margin: 0.09em auto;
+}
 
 .black_line {
   box-shadow: 0 1px 2px grey;
